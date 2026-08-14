@@ -80,10 +80,9 @@
                 },
                   
                "coatch5": {
-                  "name": "Captain Raneem Kamal",
-                  "study": "Faculty of Physical Education, Helwan University",
-                  "description": "A specialist in designing personalized training programs to help you achieve your fitness goals with confidence and strength. Whether you want to improve your fitness, tone your body, or build strength and endurance, I will create a tailored training plan based on your needs. I believe that exercise provides energy and confidence, so I focus on offering diverse workouts and modern training techniques to ensure continuous progress and lasting results."
-                },
+                  "name": "Abeer Yousry Gym Trainer",
+                  "study": "Faculty of Physical Education University, Kafr El-Sheihk",
+"description": "Your fitness journey starts with the right plan, the right guidance, and consistent motivation. My goal is to help you become stronger, healthier, and more confident through professional coaching and personalized training. A dedicated Fitness Coach specializing in personalized training programs for weight loss, muscle building, strength, endurance, and overall fitness. I help clients achieve their goals through safe, effective, and motivating workouts tailored to their lifestyle, with a focus on sustainable results and a healthier lifestyle."                },
                   
                "coatch6": {
                   "name": "Captain Alaa El-Abd",
@@ -180,9 +179,9 @@
                       "coatch5": { 
                         "title": "Subscribe With Us",
                         "result": "Now to Achieve the Best Result",
-                        "name": "Professional Training Program - Captain Raneem Kamal",
-                        "description": "A specialist in designing personalized training programs to help you achieve your fitness goals with confidence and strength.",
-                        "customized": "Customized Training Plans",
+                        "name": "Abeer Yousry Gym Trainer",
+                        "description": "Your fitness journey starts with the right plan, the right guidance, and consistent motivation. My goal is to help you become stronger, healthier, and more confident through professional coaching and personalized training. A dedicated Fitness Coach specializing in personalized training programs for weight loss, muscle building, strength, endurance, and overall fitness. I help clients achieve their goals through safe, effective, and motivating workouts tailored to their lifestyle, with a focus on sustainable results and a healthier lifestyle.",
+                        "customized": "Personalized Training Plans",
                         "fitness": "Fitness improvement and body toning",
                         "strength": "Strength and endurance building",
                         "workout": "Personalized workout programs for continuous progress",
@@ -194,6 +193,7 @@
                         "monthly": "Fitnes",
                         "quarterly": "Weightlifting"
                         },
+
                         "coatch6": { 
                         "title": "Subscribe With Us",
                         "result": "Now to Achieve the Best Result",
@@ -271,7 +271,7 @@
 
               
               "Login": {
-                        "title": "Login in to Dream Club !",
+                        "title": "Login in to KABOOSS !",
                         "email": "Email",
                         "phone": "Phone",
                         "password": "Password",
@@ -280,7 +280,7 @@
               },
 
               "Signup": {
-                "title": "Create Account",
+                "title": "Create Account in KABOOSS",
                 "paragraph": "Start Your Fitness Journey",
                 "name": "Full Name",
                 "email": "Email",
@@ -313,8 +313,7 @@
                           "running": "Running"
                             },
             "branches": {
-            "first": "First Branch - Al-Hayar St., Abu El Matamir, Beheira",
-            "second": "Second Branch - Khamis St., Abu El Matamir, Beheira"
+            "first": "- El-Shaarawy Mall, Abu El-Matamir, Beheira"
           },
            "rights": "All rights reserved by @ Team P9"
     }

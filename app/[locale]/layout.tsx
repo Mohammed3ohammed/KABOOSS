@@ -9,8 +9,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Dream Club",
-  description: "Gym",
+  title: "KABOOSS",
+  description: "GYM",
 };
 
 export default async function RootLayout({

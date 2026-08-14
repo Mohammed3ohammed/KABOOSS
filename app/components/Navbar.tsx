@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="z-50">
       <div className="bg-white opacity-95 h-20 flex justify-around items-center px-4 md:px-10 lg:px-20  z-50">
-      <h1 className="text-orange-500 italic text-3xl"><span className="text-black">Dream</span> Club</h1>
+      <h1 className="text-orange-500 italic text-3xl"><span className="text-black">kABOOSS</span> GYM</h1>
 
         <div 
           className="md:hidden text-black cursor-pointer"

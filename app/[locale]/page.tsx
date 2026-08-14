@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import img1 from '../../Image/img.jpg';
+import img1 from '../../Image/img.jpeg';
 import logo1 from '../../Image/logo1.jpg';
 import logo2 from '../../Image/logo2.jpg';
 import logo3 from '../../Image/logo3.jpg';
@@ -66,7 +66,7 @@ const  Home = () => {
   return (
           <section>
           <div>
-            <Image className="w-full h-[400px] md:h-[500px] lg:h-[700px] 2xl:h-[990px]  object-cover" src={img1} alt="img1" />
+            <Image className="w-full h-[400px] md:h-[500px] lg:h-[600px] 2xl:h-[600px]  object-cover" src={img1} alt="img1" />
         <div className='grid justify-center items-center  grid-cols-1 md:grid-cols-2 lg:grid-cols-4  h-auto md:h-[800px] lg:h-[600px] '>
   {cardsData.map((card) => (
     <div key={card.id} className="flex  justify-center items-center">

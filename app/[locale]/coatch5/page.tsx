@@ -142,38 +142,58 @@ const Page = () => {
           </div>
         </div>
 
-        <div className="mt-16 p-8 bg-gray-800 text-white rounded-lg">
-          <h2 className="text-3xl font-bold mb-4">Your Subscribed Programs</h2>
-          {loading ? (
-            <p>Loading...</p>
-          ) : programs.length > 0 ? (
-            programs.map((program) => (
-              <div key={program.subscription_id} className="bg-gray-700 p-4 rounded-lg mb-4">
-                <h3 className="text-2xl font-semibold">{program.coach_name}</h3>
-                <p>
-                  <strong>Type:</strong> {program.program_type}
-                </p>
-                <p>
-                  <strong>Sessions:</strong> {program.program_sessions}
-                </p>
-                <p>
-                  <strong>Price:</strong> {program.program_price} EGP
-                </p>
-                <p>
-                  <strong>Status:</strong> {program.status}
-                </p>
-                <p>
-                  <strong>Start Date:</strong> {program.start_date}
-                </p>
-                <p>
-                  <strong>End Date:</strong> {program.end_date}
-                </p>
-              </div>
-            ))
-          ) : (
-            <p>You have not subscribed to any program yet.</p>
-          )}
-        </div>
+<div className="mt-16 p-8 bg-gray-800 text-white rounded-lg">
+  <h2 className="text-3xl font-bold mb-4">
+    {t("coatch5.subscriptions.title")}
+  </h2>
+
+  {loading ? (
+    <p>{t("coatch5.subscriptions.loading")}</p>
+  ) : programs.length > 0 ? (
+    programs.map((program) => (
+      <div
+        key={program.subscription_id}
+        className="bg-gray-700 p-4 rounded-lg mb-4"
+      >
+        <h3 className="text-2xl font-semibold">
+          {program.coach_name}
+        </h3>
+
+        <p>
+          <strong>{t("coatch5.subscriptions.type")}:</strong>{" "}
+          {program.program_type}
+        </p>
+
+        <p>
+          <strong>{t("coatch5.subscriptions.sessions")}:</strong>{" "}
+          {program.program_sessions}
+        </p>
+
+        <p>
+          <strong>{t("coatch5.subscriptions.price")}:</strong>{" "}
+          {program.program_price} EGP
+        </p>
+
+        <p>
+          <strong>{t("coatch5.subscriptions.status")}:</strong>{" "}
+          {program.status}
+        </p>
+
+        <p>
+          <strong>{t("coatch5.subscriptions.start_date")}:</strong>{" "}
+          {program.start_date}
+        </p>
+
+        <p>
+          <strong>{t("coatch5.subscriptions.end_date")}:</strong>{" "}
+          {program.end_date}
+        </p>
+      </div>
+    ))
+  ) : (
+    <p>{t("coatch5.subscriptions.empty")}</p>
+  )}
+</div>
       </div>
     </>
   );
