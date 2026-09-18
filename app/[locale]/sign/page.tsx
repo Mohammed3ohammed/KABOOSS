@@ -76,16 +76,15 @@ const SignUp = () => {
         age: "",
         gender: "",
       });
-    } catch (error) {
+    }  catch (error) {
       console.error("Error during registration:", error);
-      if (error.response) {
-        console.error("Response Data:", error.response.data);
-        alert(`Error: ${error.response.data.message || "Something went wrong!"}`);
-      } else if (error.request) {
-        console.error("No response received:", error.request);
-        alert("No response from server!");
+      if (axios.isAxiosError(error)) {
+        console.error("Response Data:", error.response?.data);
+        alert(`Error: ${error.response?.data?.message || "Something went wrong!"}`);
+      } else if (error instanceof Error) {
+        console.error("Error:", error.message);
+        alert("An unexpected error occurred!");
       } else {
-        console.error("Axios error:", error.message);
         alert("An unexpected error occurred!");
       }
     } finally {
