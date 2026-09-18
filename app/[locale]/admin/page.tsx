@@ -1,10 +1,7 @@
 "use client";
-
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import { UserPlus } from "lucide-react";
 import axios from "axios";
-// import logo from "../../../Image/Mange.jpg";
 import { useRouter } from "../../../i18n/routing";
 
 type Coach = {
@@ -114,11 +111,6 @@ const Page = () => {
   return (
     <div className="p-8 min-h-screen">
       <h1 className="text-4xl font-bold text-center">Admin Dashboard</h1>
-      {/* <Image
-        src={logo}
-        alt="logo"
-        className="w-52 h-52 mx-auto rounded-full transform translate-y-1/2"
-      /> */}
 
       {/* Coaches Section */}
       <div className="flex justify-between items-center mt-20 mb-4">
