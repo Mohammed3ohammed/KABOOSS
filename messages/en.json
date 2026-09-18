@@ -80,7 +80,7 @@
                 },
                   
                "coatch5": {
-                  "name": "Abeer Yousry Gym Trainer",
+                  "name": "Capain Abeer Yousry",
                   "study": "Faculty of Physical Education University, Kafr El-Sheihk",
 "description": "Your fitness journey starts with the right plan, the right guidance, and consistent motivation. My goal is to help you become stronger, healthier, and more confident through professional coaching and personalized training. A dedicated Fitness Coach specializing in personalized training programs for weight loss, muscle building, strength, endurance, and overall fitness. I help clients achieve their goals through safe, effective, and motivating workouts tailored to their lifestyle, with a focus on sustainable results and a healthier lifestyle."                },
                   
@@ -221,12 +221,12 @@
                   "thead1": "Men s Schedule",
                   "thead2": "Day",
                   "schedule": [
-                    { "day": "Saturday", "men": "6:00 PM - 1:00 AM", "women": "1:00 PM - 6:00 PM" },
-                    { "day": "Sunday", "men": "2:00 PM - 1:00 AM", "women": "8:00 AM - 2:00 PM" },
-                    { "day": "Monday", "men": "6:00 PM - 1:00 AM", "women": "1:00 PM - 6:00 PM" },
-                    { "day": "Tuesday", "men": "2:00 PM - 1:00 AM", "women": "8:00 AM - 2:00 PM" },
-                    { "day": "Wednesday", "men": "6:00 PM - 1:00 AM", "women": "1:00 PM - 6:00 PM" },
-                    { "day": "Thursday", "men": "2:00 PM - 2:00 AM", "women": "8:00 AM - 2:00 PM" },
+                    { "day": "Saturday", "men": "9:00 PM - 9:00 AM", "women": "1:00 PM - 6:00 PM" },
+                    { "day": "Sunday", "men": "9:00 PM - 9:00 AM", "women": "8:00 AM - 2:00 PM" },
+                    { "day": "Monday", "men": "9:00 PM - 9:00 AM", "women": "1:00 PM - 6:00 PM" },
+                    { "day": "Tuesday", "men": "9:00 PM - 9:00 AM", "women": "8:00 AM - 2:00 PM" },
+                    { "day": "Wednesday", "men": "9:00 PM - 9:00 AM", "women": "1:00 PM - 6:00 PM" },
+                    { "day": "Thursday", "men": "9:00 PM - 9:00 AM", "women": "8:00 AM - 2:00 PM" },
                     { "day": "Friday", "men": "Closed", "women": "2:00 PM - 6:00 PM" }
                 ],
                 "table1": "Push Pull Legs Schedule",

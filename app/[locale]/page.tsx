@@ -66,11 +66,11 @@ const  Home = () => {
   return (
           <section>
           <div>
-            <Image className="w-full h-[400px] md:h-[500px] lg:h-[600px] 2xl:h-[600px]  object-cover" src={img1} alt="img1" />
-        <div className='grid justify-center items-center  grid-cols-1 md:grid-cols-2 lg:grid-cols-4  h-auto md:h-[800px] lg:h-[600px] '>
+<Image className="w-full h-[400px] md:h-[500px] lg:h-[600px] 2xl:h-[600px] object-cover" src={img1} alt="img1" />
+<div className='grid justify-center items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 h-auto md:h-[800px] lg:h-[600px] mt-8 md:mt-0 px-4 md:px-0 gap-4 md:gap-0'>
   {cardsData.map((card) => (
-    <div key={card.id} className="flex  justify-center items-center">
-      <div className="bg-white w-full h-[350px] md:h-[360px] lg:h-[360px] md:w-80 lg:w-80 rounded-2xl p-3  hover:transition hover:border-4 hover:border-solid hover:border-orange-500">
+    <div key={card.id} className="flex justify-center items-center">
+      <div className="bg-white w-full h-[350px] md:h-[360px] lg:h-[360px] md:w-80 lg:w-80 rounded-2xl p-3 hover:transition hover:border-4 hover:border-solid hover:border-orange-500">
         <div className="text-black flex justify-between items-center flex-col">
           <Image src={card.img} alt={`logo`} className="w-16 h-16" />
           <h1 className="border-b-2 border-solid border-orange-500 p-3">{t(card.title)}</h1>
@@ -83,7 +83,7 @@ const  Home = () => {
         </div>
       </div>
     </div>
-      ))}
+  ))}
 </div>
         </div>
 
