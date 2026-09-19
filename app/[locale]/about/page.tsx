@@ -18,7 +18,7 @@ const Page = () => {
   return (
     <>
       <div className="flex flex-col justify-center items-center mt-10 mb-10 p-2">
-        <h1 className="text-3xl text-orange-500 italic">{t("title")}</h1>
+        <h1 className="text-3xl text-red-800 italic">{t("title")}</h1>
         <p className="w-full p-4 md:w-5/12 lg:w-5/12 mt-2 text-gray-400">{t("description")}</p>
         <ul className="list-disc text-gray-400 w-full p-5 md:w-5/12 lg:w-5/12 leading-relaxed">
         <li>{t("equipment")}</li>
