@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white">
     <div className=" grid grid-cols-1  md:grid-cols-3 lg:grid-cols-3 gap-5  p-5 ">
     <div className="flex flex-col items-center text-center ">
-    <h1 className="text-3xl text-orange-500 italic">KABOOSS <span className="text-red">GYM</span></h1>
+    <h1 className="text-3xl text-red-800 italic">KABOOSS <span className="text-red">GYM</span></h1>
     <p className="p-4  md:w-full w-96 mt-3 leading-relaxed">{t("description")}</p>
         </div>
         <div className="grid grid-cols-2 justify-center items-center">

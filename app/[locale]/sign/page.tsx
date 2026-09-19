@@ -95,8 +95,8 @@ const SignUp = () => {
   return (
     <div className="flex justify-center items-center h-auto mt-10 mb-10">
       <div className="flex flex-col justify-evenly items-center w-11/12 h-auto bg-zinc-900 rounded-3xl sm:w-9/12 md:w-6/12 lg:w-4/12 sm-h-4/5">
-        <h1 className="text-2xl mt-3 italic text-orange-500 p-4">{t("title")}</h1>
-        <p className="italic text-orange-500">{t("paragraph")}</p>
+        <h1 className="text-2xl mt-3 italic text-red-800 p-4">{t("title")}</h1>
+        <p className="italic text-red-800">{t("paragraph")}</p>
         <form className="flex flex-col text-xl mb-7" onSubmit={handleSubmit}>
           {["name", "email", "phone", "password", "weight", "height", "age"].map((field) => (
             <div key={field} className="mb-4">
@@ -107,14 +107,14 @@ const SignUp = () => {
                 value={formData[field as keyof FormData]}
                 onChange={handleChange}
                 required
-                className="w-full mb-4 h-8 p-2 bg-zinc-700 rounded-md focus:outline-orange-500 pr-10"
+                className="w-full mb-4 h-8 p-2 bg-zinc-700 rounded-md focus:outline-red-800 pr-10"
               />
             </div>
           ))}
 
           <label className="text-base mb-2 block">{t("gender")}</label>
           <select
-            className="w-80 mb-4 text-base h-auto bg-zinc-700 rounded-md focus:outline-orange-500"
+            className="w-80 mb-4 text-base h-auto bg-zinc-700 rounded-md focus:outline-red-800"
             name="gender"
             value={formData.gender}
             onChange={handleChange}
@@ -128,7 +128,7 @@ const SignUp = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full mt-3 text-lg border-2 border-solid border-orange-500 p-1 rounded-full text-white font-semibold h-auto transition hover:bg-orange-500"
+            className="w-full mt-3 text-lg border-2 border-solid border-red-800 p-1 rounded-full text-white font-semibold h-auto transition hover:bg-red-800"
           >
             {loading ? "Submitting..." : t("button")}
           </button>

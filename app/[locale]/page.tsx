@@ -70,13 +70,13 @@ const  Home = () => {
 <div className='grid justify-center items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 h-auto md:h-[800px] lg:h-[600px] mt-8 md:mt-0 px-4 md:px-0 gap-4 md:gap-0'>
   {cardsData.map((card) => (
     <div key={card.id} className="flex justify-center items-center">
-      <div className="bg-white w-full h-[350px] md:h-[360px] lg:h-[360px] md:w-80 lg:w-80 rounded-2xl p-3 hover:transition hover:border-4 hover:border-solid hover:border-orange-500">
+      <div className="bg-white w-full h-[350px] md:h-[360px] lg:h-[360px] md:w-80 lg:w-80 rounded-2xl p-3 hover:transition hover:border-4 hover:border-solid hover:border-red-800">
         <div className="text-black flex justify-between items-center flex-col">
           <Image src={card.img} alt={`logo`} className="w-16 h-16" />
-          <h1 className="border-b-2 border-solid border-orange-500 p-3">{t(card.title)}</h1>
+          <h1 className="border-b-2 border-solid border-red-800 p-3">{t(card.title)}</h1>
           <p className="p-6">{t(card.desc)}</p>
           <Link href="/workout">
-            <button className="flex border-2 border-solid p-2 rounded-full border-orange-500 text-orange-500 w-32 m-auto transition hover:bg-orange-500 hover:text-white">
+            <button className="flex border-2 border-solid p-2 rounded-full border-red-800 text-red-800 w-32 m-auto transition hover:bg-red-800 hover:text-white">
               {t("button")} <FontAwesomeIcon icon={faArrowRight} className="size-6 ml-4 w-4 h-4" />
             </button>
           </Link>
@@ -89,7 +89,7 @@ const  Home = () => {
 
 
             <div className='p-10 '>
-              <h1 className='text-center text-orange-500 italic pt-8 text-2xl'>FITNESS <span className='text-white'>EXPERT</span></h1>
+              <h1 className='text-center text-red-800 italic pt-8 text-2xl'>FITNESS <span className='text-white'>EXPERT</span></h1>
               <p className='text-center mt-4'>{t("description")}</p>
               <div className='grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-14 '>
                 {imagesData.map((image) => (

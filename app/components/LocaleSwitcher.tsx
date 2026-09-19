@@ -19,8 +19,8 @@ export default function LocaleSwitcher() {
       onClick={toggleLocale}
       className="flex items-center gap-2  0 transition"
     >
-      <Globe className="w-7 h-7 text-orange-500 transform transition duration-300 hover:scale-150 animate-bounceLight " />
-      <span className="w-7 h-7 text-orange-500">{locale === "ar" ? "En" : "AR"}</span>
+      <Globe className="w-7 h-7 text-red-800 transform transition duration-300 hover:scale-150 animate-bounceLight " />
+      <span className="w-7 h-7 text-red-800">{locale === "ar" ? "En" : "AR"}</span>
     </button>
   );
 }

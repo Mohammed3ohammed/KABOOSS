@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import React from 'react'
 import imge2 from"../../../public/Captins/Image2.jpg";
 import imge3 from"../../../public/Captins/Image3.jpg";
 import imge4 from"../../../public/Captins/Image4.jpg";
@@ -74,7 +73,7 @@ const Page = () => {
           <p className='w-96  text-lg text-center mt-2'>{item.study}</p>
           <p className='w-80 md:w-96 lg:w-96 text-base mt-8'>{item.description}</p>
           <Link href={item.link}>
-                <button className='border-solid border-2 border-orange-500 rounded-full w-36 p-2 mt-5 hover:bg-orange-500 transition'>
+                <button className='border-solid border-2 border-red-800 rounded-full w-36 p-2 mt-5 hover:bg-orange-500 transition'>
                   {t("button")}
                 </button>
               </Link>

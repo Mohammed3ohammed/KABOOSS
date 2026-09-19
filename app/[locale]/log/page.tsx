@@ -59,7 +59,7 @@ const LogIn = () => {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="flex flex-col justify-evenly items-center w-11/12 h-3/5 bg-zinc-900 rounded-3xl sm:w-9/12 md:w-6/12 lg:w-4/12 sm-h-4/5">
-        <h1 className="text-xl mt-2 italic text-orange-500">{t("title")}</h1>
+        <h1 className="text-xl mt-2 italic text-red-800">{t("title")}</h1>
         <form onSubmit={handleSubmit} className="flex flex-col text-lg mb-8 sm:text-xl">
           <label className="text-base mb-2 mt-5">{t("email")}</label>
           <input
@@ -68,7 +68,7 @@ const LogIn = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-80 h-8 p-2 bg-zinc-700 rounded-md focus:outline-orange-500"
+            className="w-80 h-8 p-2 bg-zinc-700 rounded-md focus:outline-red-800"
           />
           <label className="text-base mb-2 mt-4">{t("password")}</label>
 
@@ -79,7 +79,7 @@ const LogIn = () => {
               value={formData.password}
               onChange={handleChange}
               required
-              className="w-full mb-4 h-8 p-2 bg-zinc-700 rounded-md focus:outline-orange-500 pr-10"
+              className="w-full mb-4 h-8 p-2 bg-zinc-700 rounded-md focus:outline-red-800 pr-10"
             />
             <button
               type="button"
@@ -94,12 +94,12 @@ const LogIn = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full mt-3 text-lg border-2 border-solid border-orange-500 p-1 rounded-full text-white font-semibold h-auto transition hover:bg-orange-500"
+            className="w-full mt-3 text-lg border-2 border-solid border-red-800 p-1 rounded-full text-white font-semibold h-auto transition hover:bg-orange-500"
           >
             {loading ? "Logging in... 🔃" : t("button")}
           </button>
         </form>
-        <Link href="/sign" className="text-lg text-orange-500 sm:text-lg">
+        <Link href="/sign" className="text-lg text-red-800 sm:text-lg">
           {t("create")}
         </Link>
       </div>

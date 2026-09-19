@@ -84,7 +84,7 @@ const Page = () => {
   return (
     <>
       <div className='flex justify-center'>
-        <h1 className='text-3xl font-bold mt-10 italic text-orange-500'>{t("coatch4.title")}</h1>
+        <h1 className='text-3xl font-bold mt-10 italic text-red-800'>{t("coatch4.title")}</h1>
       </div>
       <div>
         <p className='text-center mt-5 text-2xl'>{t("coatch4.result")}</p>
@@ -123,7 +123,7 @@ const Page = () => {
                       <option value="monthly">{t("coatch4.monthly")}</option>
                       <option value="quarterly">{t("coatch4.quarterly")}</option>
                     </select>
-                    <button type="submit" className="border-2 border-solid border-orange-500 py-2 px-6 mt-5 rounded-full text-white hover:bg-orange-500 hover:text-white transition duration-300 w-full sm:w-auto text-center cursor-pointer">
+                    <button type="submit" className="border-2 border-solid border-red-800 py-2 px-6 mt-5 rounded-full text-white hover:bg-orange-500 hover:text-white transition duration-300 w-full sm:w-auto text-center cursor-pointer">
                       {t("button")}
                     </button>
                   </form>
